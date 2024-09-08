@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Serverless API to take screenshots of websites with Puppeteer.",
   "dependencies": {
-    "chrome-aws-lambda": "10.1.0",
-    "puppeteer-core": "13.1.2",
+    "chrome-aws-lambda",
+    "puppeteer-core"",
     "express": "^4.17.1"
   },
   "devDependencies": {
