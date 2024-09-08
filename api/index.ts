@@ -14,7 +14,7 @@ module.exports = async (req, res) => {
     });
     const page = await browser.newPage();
 
-    await page.goto("https://developers.google.com/web/");
+    await page.goto(req.query.url);
 
    const file = await page.screenshot({
       path: "/tmp/screenshot.jpg",
