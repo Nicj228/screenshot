@@ -4,7 +4,7 @@
   "description": "Serverless API to take screenshots of websites with Puppeteer.",
   "dependencies": {
     "chrome-aws-lambda",
-    "puppeteer-core"",
+    "puppeteer-core",
     "express": "^4.17.1"
   },
   "devDependencies": {
